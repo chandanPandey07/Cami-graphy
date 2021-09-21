@@ -1,0 +1,213 @@
+html{
+   
+    scroll-behavior: smooth;
+}
+body{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+/* Header Section Styling */
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+}
+.section::before{
+    background: url("https://source.unsplash.com/1920x1080/?cinematography,photography")
+    no-repeat center center/cover;
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index:-1;
+    opacity: 0.3;
+}
+.header-sect2{
+    font-size: 4rem;
+    font-family: 'Grey Qo', cursive;
+    padding: 5px;
+
+}
+.header-sect1{
+    font-size: 3em;
+}
+.btn-sign, .btn-login{
+    background: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 15px;
+    width: 6em;
+    font-size: medium;
+
+}
+.btn-login:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-color: white;
+}
+.btn-sign:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    /* border: 1px solid black; */
+}
+
+.nav-sect1 ul{
+    list-style: none;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.nav-sect1 ul li a{
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-sect1 ul li a:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.nav-sect2{
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+input[type=text]{
+    background: none;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1em;
+    width: 20em;
+    outline: none;
+    margin-right: 10px;
+    
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 5em;
+    font-family: 'Noto Sans', sans-serif;
+    /* height: 100vh; */
+}
+.section p{
+    font-size: 1.5rem;
+    font-family: 'Mr Dafoe', cursive;
+}
+.joinBtn{
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    width: 10em;
+    font-size: medium;
+}
+.joinBtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.section2{
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    padding: 10rem;
+    margin-top: 15em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* .box-1::before{
+    background: url('https://source.unsplash.com/1920x1080/?cinematography,photography') no-repeat center center/cover;
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    opacity: 0.3;
+} */
+.box-1,.box-2,.box-3,.box-4{
+    background-color:  rgba(220, 20, 60, 0.774);
+    box-shadow: 1px 6px 60px -25px rgb(214, 9, 50);
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align: center;
+    padding: 1rem;
+    margin: 25px 30px;
+    height: 30em;
+    width: 20em;
+}
+
+.box-1:hover,.box-2:hover,.box-3:hover,.box-4:hover{
+    transition:all 0.5s ease-in-out .2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.section3{
+    background-color: rgba(0, 0, 0, 0.65);
+    /* background-color: crimson; */
+    color: white;
+    padding: 5rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.socialBtns{
+    font-size: 2em;
+    margin: 10px;
+}
+.headHer{
+    clear: right;
+    font-size: 3rem;
+}
+.profileImg{
+    border-radius: 100%;
+    /* box-shadow: 3px 9px 45px -6px black; */
+    height: 175px;
+    width: 150px;
+    margin-left: 54px;
+}
+
